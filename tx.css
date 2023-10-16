@@ -1,0 +1,71 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #b4a6a6;
+    color: #3b6bbe;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.student-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   
+}
+
+.student-photo img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+.student-details h2 {
+    font-size: 24px;
+}
+
+.social-media {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.social-media h3 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
